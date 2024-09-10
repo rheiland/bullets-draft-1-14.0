@@ -89,7 +89,7 @@ See changes.md for the full change log.
 Version 1.14.0  Introduces a few changes to Rules, a new Cell_Integrity class, finer grain "contact with dead" (split into apoptotic and necrotic), more options for the random number generator seed value, new user-defined custom function for cell division. This release also introduces improved testing via scripts and GitHub Actions.
 
 ### Version 1.14.0 (11 Sept 2024):
-Version 1.14.0 introduces PhysiMeSS (MicroEnvironment Structures Simulation) as a PhysiCell add-on created by Cicely Macnamara, Vincent Noël and collaborators, which allows the user to specify rod-shaped microenvironment elements such as the matrix fibres (e.g. collagen) of the ECM. This allows the PhysiCell user the ability to investigate fine-grained processes between cellular and fibrous ECM agents. We are providing an sample project together with this addon to demonstrate, via many examples, the possibilities of PhysiMeSS. For more information, consult the PhysiMeSS README available in [./addons/PhysiMeSS/README.md](./addons/PhysiMeSS/README.md). Version 1.13.0 also updates the bundled PhysiBoSS addon, introduces a variety of bug fixes (particularly in handling of Dirichlet boundary conditions), and improves SVG plots. 
+TODO - do we need anything here?
 
 We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Daniel Bergman, Heber Rocha, and Elmar Bucher in this release. 
 
