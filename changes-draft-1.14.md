@@ -140,7 +140,8 @@ We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Danie
       + Implemented because log10 values are more human-interpretable
   + Can enforce that the base value is within the distribution to help constrain parameter sweeps
   + “Enable” attributes make it easy to toggle on/off individual distributions or for an entire cell type
-+ Scripts in `/beta` to help with testing, both manually and via GitHub Actions: `test_build_samples.sh` and `test*.py`
++ Scripts in `/beta` to help with testing, both manually and via GitHub Actions: `test_build_samples.sh` and `test*.py`o
++ The Makefiles for all sample projects now do a recursive copy (`cp -r`) for files in the /config directory
 
  
 ### Bugfixes: 
