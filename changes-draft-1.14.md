@@ -86,7 +86,7 @@ See changes.md for the full change log.
 * * * 
 
 ## Release summary: 
-Version 1.14.0  Introduces a few changes to Rules, a new Cell_Integrity class, finer grain "contact with dead" (split into apoptotic and necrotic), more options for the random number generator seed value, new user-defined custom function for cell division. This release also introduces improved testing via scripts and GitHub Actions.
+Version 1.14.0  Introduces a few changes to Rules, a new Cell_Integrity class, finer grain "contact with dead" (split into apoptotic and necrotic), more options for the random number generator seed value, and a new user-defined custom function for cell division. This release also introduces improved testing via scripts and GitHub Actions.
 
 ### Version 1.14.0 (11 Sept 2024):
 TODO - do we need anything here?
@@ -140,6 +140,7 @@ We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Danie
       + Implemented because log10 values are more human-interpretable
   + Can enforce that the base value is within the distribution to help constrain parameter sweeps
   + “Enable” attributes make it easy to toggle on/off individual distributions or for an entire cell type
++ Scripts in `/beta` to help with testing, both manually and via GitHub Actions: `test_build_samples.sh` and `test*.py`
 
  
 ### Bugfixes: 
