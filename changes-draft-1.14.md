@@ -159,6 +159,7 @@ We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Danie
 ### Bugfixes: 
 #### 1.14.0 
 + `sample_projects_intracellular/ode/ode_energy/main.cpp` was updated to use `save_PhysiCell_to_MultiCellDS_v2`
++ `Cell::convert_to_cell_definition` now retains the cell volume
 
 ### Notices for intended changes that may affect backwards compatibility:
 + TODO
