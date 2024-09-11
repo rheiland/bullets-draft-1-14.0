@@ -65,7 +65,7 @@ Visit http://MathCancer.org/blog for the latest tutorials and help.
 **`make upgrade`**       : fetch the latest release of PhysiCell and overwrite the core library and sample projects. 
 
 ### Key Links 
-**Homepage:**     http://PhysiCell.MathCancer.org 
+**Homepage:**     http://PhysiCell.MathCancer.org (<-- TODO: dead link; maybe use PhysiCell.org or the github repo)
 
 **Downloads:**    https://PhysiCell.sf.net
 
