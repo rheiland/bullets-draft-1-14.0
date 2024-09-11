@@ -67,7 +67,7 @@ Visit http://MathCancer.org/blog for the latest tutorials and help.
 ### Key Links 
 **Homepage:**     http://PhysiCell.MathCancer.org 
 
-**Downloads:**    http://PhysiCell.sf.net
+**Downloads:**    https://PhysiCell.sf.net
 
 **Support:**      https://join.slack.com/t/physicellcomm-sf93727/shared_invite/zt-qj1av6yd-yVeer8VkQaNDjDz7fF00jA 
 
