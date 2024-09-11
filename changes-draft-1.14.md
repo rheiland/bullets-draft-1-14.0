@@ -142,7 +142,19 @@ We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Danie
   + “Enable” attributes make it easy to toggle on/off individual distributions or for an entire cell type
 + Scripts in `/beta` to help with testing, both manually and via GitHub Actions: `test_build_samples.sh` and `test*.py`
 + The Makefiles for all sample projects now do a recursive copy (`cp -r`) for files in the /config directory
-
++ MultiCellDS update:
+  + PhysiBoSS intracellular data is now part of data export
+  + Spring attachments are now part of data export
++ Update to PhysiBoSS 2.2.3
+  + Added steepness parameter to output mapping, controlling the Hill coefficient used.
+  + Added use_for_dead parameter to input and output mapping, to define if this mapping should be used on dead cells.
+  + Added three new sample projects: 
+    + template_BM: adaptation of the template project of PhysiCell, with PhysiBoSS support
+    + physiboss-tutorial: three toy models presented in the PhysiBoSS tutorial ([10.48550/arXiv.2406.18371](https://doi.org/10.48550/arXiv.2406.18371)).
+    + physiboss-tutorial-invasion: update of the cancer invasion model by Ruscone et al., also presented in the PhysiBoSS tutorial.
++ Update to PhysiMeSS 1.0.1
+  + Most parameters are now defined in custom_data, to make them specific to a cell definition. This introduces the possibility to have multiple types of fibers.
++ Introducing experimental pre-compiled binaries, available via python beta/download_binary.py.
  
 ### Bugfixes: 
 #### 1.14.0 
