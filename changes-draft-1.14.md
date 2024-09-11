@@ -65,7 +65,7 @@ Visit http://MathCancer.org/blog for the latest tutorials and help.
 **`make upgrade`**       : fetch the latest release of PhysiCell and overwrite the core library and sample projects. 
 
 ### Key Links 
-**Homepage:**     http://PhysiCell.MathCancer.org (-- TODO: dead link; maybe use PhysiCell.org or the github repo)
+**Homepage:**     http://PhysiCell.MathCancer.org 
 
 **Downloads:**    https://PhysiCell.sf.net
 
@@ -86,7 +86,7 @@ See changes.md for the full change log.
 * * * 
 
 ## Release summary: 
-Version 1.14.0  Introduces a few changes to Rules, a new Cell_Integrity class, finer grain "contact with dead" (split into apoptotic and necrotic), more options for the random number generator seed value, and a new user-defined custom function for cell division. This release also introduces improved testing via scripts and GitHub Actions.
+Version 1.14.0  Introduces Cell Behavior Hypothesis Grammar (CBHG) 3.0, enhancing the modeling of celular behaviors with the addition of a new Cell_Integrity class and refined phagocytosis behaviors, now spliting into apoptotic and necrotic. New behaviors such as attack damage rate and attack duration have been introduced to improve the modeling of attack and damage/integrity processes. This release also includes an option to set the random number generator seed value and a new user-defined custom function for cell division. Additionally, a systematic testing package has been added, utilizing scripts and GitHub Actions for automated testing.
 
 ### Version 1.14.0 (11 Sept 2024):
 TODO - do we need anything here?
