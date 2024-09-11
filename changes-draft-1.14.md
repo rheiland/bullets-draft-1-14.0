@@ -155,11 +155,19 @@ We are grateful for contributions by TODO... Vincent Noël, Randy Heiland, Danie
 + Update to PhysiMeSS 1.0.1
   + Most parameters are now defined in custom_data, to make them specific to a cell definition. This introduces the possibility to have multiple types of fibers.
 + Introducing experimental pre-compiled binaries, available via python beta/download_binary.py.
++ Non-monotonic rules: a single signal can now both cause an increase *and* a decrease in a behavior for a cell type
++ Initialize substrate initial conditions using a .mat or .csv file
+  + implemented in PhysiCell Studio; see output there for formatting of the csv
++ Substrate heatmaps on SVGs improvements:
+  + set colormaps in the config file
+  + set the svg substrate color function by default for config-only based implementation
++ throw error if duplicate substrate or user_parameter name found
  
 ### Bugfixes: 
 #### 1.14.0 
 + `sample_projects_intracellular/ode/ode_energy/main.cpp` was updated to use `save_PhysiCell_to_MultiCellDS_v2`
 + `Cell::convert_to_cell_definition` now retains the cell volume
++ fix bug in storing rules that occasionally resulted in seg faults
 
 ### Notices for intended changes that may affect backwards compatibility:
 + TODO
